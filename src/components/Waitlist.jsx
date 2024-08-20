@@ -28,7 +28,6 @@ function Waitlist() {
         </svg>
       </div>
 
-      {/* Description Below Title */}
       <p className="text-md sm:text-lg text-black mb-6">
         Join the waitlist and be the first one to get hands on the app
       </p>
@@ -53,7 +52,7 @@ function Waitlist() {
                 <input
                   type="email"
                   placeholder="Enter email address"
-                  className="p-3 sm:p-4 rounded-full border-none outline-none text-black w-80 pr-24"
+                  className="p-3 sm:p-4 rounded-full border-none outline-none text-black w-full sm:w-80 pr-24"
                 />
                 <button
                   type="submit"
