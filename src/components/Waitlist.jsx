@@ -52,8 +52,8 @@ function Waitlist() {
               <div className="relative">
                 <input
                   type="email"
-                  placeholder="Enter your email address"
-                  className="p-3 sm:p-4 rounded-full border-none outline-none text-black w-full pr-24"
+                  placeholder="Enter email address"
+                  className="p-3 sm:p-4 rounded-full border-none outline-none text-black w-80 pr-24"
                 />
                 <button
                   type="submit"
