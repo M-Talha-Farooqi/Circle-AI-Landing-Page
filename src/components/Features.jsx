@@ -12,7 +12,7 @@ function Features() {
         <span className="inline-block"> We Provide</span>
         <div className="left-1/2 transform -translate-x-3/4 bottom-[-8px] w-[120px] mx-auto">
           <svg
-            width="120"
+            width="150"
             height="10"
             viewBox="0 0 110 10"
             fill="none"
