@@ -96,8 +96,7 @@ function Header() {
         </div>
       </h1>
       <p className="mb-8 text-sm sm:text-base">
-        Get started in just minutes, and take your business beyond <br />
-        what you imagined.
+        Get started in just minutes, and take your business beyond what you imagined.
       </p>
       <button className="bg-blue-800 text-white px-6 py-3 rounded-md">
         Join the Waitlist
