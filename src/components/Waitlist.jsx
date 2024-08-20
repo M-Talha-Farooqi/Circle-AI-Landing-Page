@@ -65,7 +65,7 @@ function Waitlist() {
           </div>
         </div>
 
-        <div className="absolute right-10 sm:right-20 bottom-8 sm:bottom-10 transform translate-x-10 sm:translate-x-16 translate-y-10 opacity-30">
+        <div className="absolute right-10 sm:right-20 bottom-11 sm:bottom-10 transform translate-x-10 sm:translate-x-16 translate-y-10 opacity-30">
           <img
             src={logo}
             alt="Circle Logo"
