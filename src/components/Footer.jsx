@@ -6,9 +6,14 @@ import Home from "../assets/Home.png";
 
 function Footer() {
   return (
-    <footer className="p-8 bg-blue-300 relative" style={{ height: "300px" }}>
-      <div className="flex flex-col md:flex-row justify-between items-center h-full">
-        <div className="flex flex-col items-start space-y-2">
+    <footer
+      className="p-4 sm:p-8 bg-blue-300 relative"
+      style={{ height: "auto", minHeight: "280px" }}
+    >
+      <div className="flex flex-col md:flex-row justify-between items-start md:items-center h-full space-y-6 md:space-y-0 mt-4">
+        {" "}
+        <div className="flex flex-col items-start space-y-2 mt-4">
+          {" "}
           <div className="flex items-center space-x-2">
             <img
               src={logo}
@@ -21,10 +26,13 @@ function Footer() {
             One App, Everything Business
           </div>
         </div>
-
         {/* Email, Link, and Home */}
-        <div className="flex flex-col md:flex-row items-center md:space-x-8 mt-4 md:mt-0">
-          <div className="flex flex-col md:items-start space-y-4 md:space-y-0">
+        <div
+          className="flex flex-col md:flex-row items-start md:items-center md:space-x-8 space-y-4 md:space-y-0 w-full md:w-auto 
+        mt-4 md:mt-4"
+        >
+          {" "}
+          <div className="flex flex-col space-y-4 md:space-y-0">
             <a
               href="mailto:thecircleofficial@gmail.com"
               className="flex items-center space-x-2 text-white"
@@ -43,7 +51,8 @@ function Footer() {
               <span>circleofficial.linktr.ee</span>
             </a>
           </div>
-          <div className="ml-8 md:ml-16 ">
+          <div className="flex justify-end w-full md:w-auto mt-4">
+            {" "}
             <a href="/" className="flex items-center">
               <img
                 src={Home}
