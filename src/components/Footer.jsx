@@ -12,7 +12,7 @@ function Footer() {
     >
       <div className="flex flex-col md:flex-row justify-between items-start md:items-center h-full space-y-6 md:space-y-0 mt-4">
         {" "}
-        <div className="flex flex-col items-start space-y-2 mt-4">
+        <div className="flex flex-col items-start space-y-2 mt-10">
           {" "}
           <div className="flex items-center space-x-2">
             <img
